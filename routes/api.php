@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/user/{username}', 'ApiController@user');
+Route::post('/jobs/search', 'ApiController@jobs');
+Route::post('/people/search', 'ApiController@people');
+Route::get('/job/{id}', 'ApiController@job');
