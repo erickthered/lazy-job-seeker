@@ -18,18 +18,27 @@
         v-if="!isLoading && querySent"
         @update:items-per-page="setSize"
         @update:page="setPage"
+        @item-selected="displayOpportunity"
         :items-per-page="size"
-        :headers="columns"
+        :headers="headers"
         :items="items"
         :server-items-length="totalItems"
-      ></v-data-table>
+      >
+        <template v-slot:item.objective="{ item }">
+          <v-icon v-if="item.remote">mdi-access-point</v-icon>
+          {{ item.objective }}
+        </template>
+        <template v-slot:item.match="{ item }">
+          <v-chip>{{ item.match }} %</v-chip>
+        </template>
+      </v-data-table>
     </v-col>
   </v-row>
 </template>
 
 <script>
 import axios from "axios";
-import { mapGetters } from 'vuex';
+import { mapGetters, mapState, mapActions } from "vuex";
 
 export default {
   name: "Opportunities",
@@ -43,7 +52,7 @@ export default {
       isLoading: false,
       querySent: false,
       currentType: "full-time-employment",
-      columns: [
+      headers: [
         {
           text: "Company",
           value: "organizations[0].name"
@@ -62,11 +71,7 @@ export default {
         },
         {
           text: "Match",
-          value: ""
-        },
-        {
-          text: "Remote",
-          value: "remote"
+          value: "match"
         }
       ],
       items: []
@@ -74,6 +79,16 @@ export default {
   },
   methods: {
     ...mapGetters(['getSkills']),
+    ...mapActions(["calculateMatch"]),
+    displayOpportunity(item) {
+      axios.get('/api/jobs/' + item.id).then(
+        res => {
+          if (res.data.success) {
+            console.log(res.data.data);
+          }
+        }
+      )
+    },
     search() {
       this.isLoading = true;
       axios
@@ -88,7 +103,7 @@ export default {
           if (res.data.success) {
             this.items = res.data.data.results;
             this.totalItems = res.data.data.total;
-            this.page = (res.data.data.offset / this.size) + 1;
+            this.page = res.data.data.offset / this.size + 1;
           } else {
             this.items = [];
           }
@@ -101,7 +116,6 @@ export default {
         });
     },
     setSize(q) {
-        console.log(q)
       this.size = q;
       this.search();
     },

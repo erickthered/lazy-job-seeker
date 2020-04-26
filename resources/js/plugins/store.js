@@ -10,7 +10,7 @@ export default new Vuex.Store({
     },
     getters: {
         getSkills(state) {
-            return state.skills.map( skill => {return skill.name});
+            return state.skills.map(skill => { return skill.name });
         }
     },
     mutations: {
@@ -39,6 +39,9 @@ export default new Vuex.Store({
         },
         fetchUser(context, username) {
             return fetchUserApi(username)
+        },
+        calculateMatch(context, jobSkills) {
+            console.log(jobSkills);
         }
     }
 });
