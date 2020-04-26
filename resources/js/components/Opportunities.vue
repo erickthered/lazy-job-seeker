@@ -7,25 +7,38 @@
       <v-btn color="indigo" dark @click="search">Search Opportunities</v-btn>
     </v-col>
     <v-col cols="12">
-      <v-progress-linear v-if="isLoading" indeterminate></v-progress-linear>
       <v-tabs v-if="querySent">
         <v-tab @click="setType('full-time-employment')">Full-time Jobs</v-tab>
         <v-tab @click="setType('part-time-employment')">Part-time Jobs</v-tab>
         <v-tab @click="setType('freelance-gigs')">Freelance</v-tab>
         <v-tab @click="setType('internships')">Internships</v-tab>
       </v-tabs>
-      <v-data-table v-if="querySent" :headers="columns" :items="items"></v-data-table>
+      <v-progress-linear v-if="isLoading" indeterminate></v-progress-linear>
+      <v-data-table
+        v-if="!isLoading && querySent"
+        @update:items-per-page="setSize"
+        @update:page="setPage"
+        :items-per-page="size"
+        :headers="columns"
+        :items="items"
+        :server-items-length="totalItems"
+      ></v-data-table>
     </v-col>
   </v-row>
 </template>
 
 <script>
 import axios from "axios";
+import { mapGetters } from 'vuex';
 
 export default {
   name: "Opportunities",
   data() {
     return {
+      page: 1,
+      size: 10,
+      offset: 0,
+      totalItems: 0,
       onlyRemote: false,
       isLoading: false,
       querySent: false,
@@ -60,17 +73,22 @@ export default {
     };
   },
   methods: {
+    ...mapGetters(['getSkills']),
     search() {
       this.isLoading = true;
       axios
         .post("/api/jobs/search", {
           type: this.currentType,
           remote: this.onlyRemote,
-          skills: this.
+          size: this.size,
+          offset: this.offset,
+          skills: this.getSkills()
         })
         .then(res => {
           if (res.data.success) {
             this.items = res.data.data.results;
+            this.totalItems = res.data.data.total;
+            this.page = (res.data.data.offset / this.size) + 1;
           } else {
             this.items = [];
           }
@@ -82,8 +100,17 @@ export default {
           this.isLoading = false;
         });
     },
+    setSize(q) {
+        console.log(q)
+      this.size = q;
+      this.search();
+    },
     setType(type) {
       this.currentType = type;
+      this.search();
+    },
+    setPage(p) {
+      this.page = p;
       this.search();
     }
   }

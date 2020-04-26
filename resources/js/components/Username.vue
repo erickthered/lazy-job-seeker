@@ -10,20 +10,21 @@
       v-model="username"
     />
     <v-progress-linear v-if="isLoading" indeterminate></v-progress-linear>
-    <skills v-if="userData" :skills="userData.strengths" />
-    <opportunities v-if="userData"/>
+    <skills v-if="userData" :userSkills="userData.strengths" />
+    <opportunities v-if="userData" />
   </v-container>
 </template>
 
 <script>
-import { mapActions } from "vuex";
+import { mapActions, mapState } from "vuex";
 import Skills from "./Skills";
-import Opportunities from './Opportunities';
+import Opportunities from "./Opportunities";
 
 export default {
   name: "Username",
   components: {
-    Skills, Opportunities
+    Skills,
+    Opportunities
   },
   data() {
     return {
@@ -33,25 +34,26 @@ export default {
     };
   },
   methods: {
-    fetchJobs() {
-        
-    },
+    ...mapActions(["clearSkills"]),
     validateUser() {
-      this.isLoading = true;
+      let vm = this;
+      vm.isLoading = true;
       axios
-        .get("/api/user/" + this.username)
+        .get("/api/user/" + vm.username)
         .then(res => {
           if (res.data.success) {
-            this.userData = res.data.data;
+            vm.userData = res.data.data;
           } else {
-            this.userData = null;
+            vm.userData = null;
           }
-          this.isLoading = false;
+          vm.clearSkills();
+          vm.isLoading = false;
         })
         .catch(err => {
-            console.log(err);
-          this.isLoading = false;
-        })
+          console.log('trapped error');
+          console.log(err);
+          vm.isLoading = false;
+        });
     }
   }
 };

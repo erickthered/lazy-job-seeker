@@ -32,6 +32,7 @@ class Jobs implements AdapterInterface
         $adapter = new Jobs($request);
         $adapter->parseJobType();
         $adapter->parseRemote();
+        $adapter->parseSkills();
 
         return $adapter->array;
     }
@@ -55,6 +56,20 @@ class Jobs implements AdapterInterface
                     'term' => true
                 ]
             ]);
+        }
+    }
+
+    protected function parseSkills()
+    {
+        if ($this->request->skills) {
+            foreach ($this->request->skills as $skill) {
+                array_push($this->array['and'], [
+                    'skill' => [
+                        'term' => $skill,
+                        'experience' => 'potential-to-develop'
+                    ]
+                ]);
+            }
         }
     }
 
