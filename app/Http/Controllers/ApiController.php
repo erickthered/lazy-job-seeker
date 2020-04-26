@@ -16,7 +16,9 @@ class ApiController extends Controller
         $success = false;
         try {
             $json = Jobs::adapt($request);
-            $data = $client->post('https://search.torre.co/opportunities/_search', [
+            $size = (int)$request->get('size', 10);
+            $offset = (int)$request->get('offset', 0);
+            $data = $client->post('https://search.torre.co/opportunities/_search?size='.$size.'&offset='.$offset, [
                 'content-type' => 'application/json',
                 'json' =>  $json
             ]);
