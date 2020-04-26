@@ -1,8 +1,9 @@
 <template>
   <v-app id="lazy-job-seeker">
-    <v-app-bar app>
-      <!-- -->
+    <v-app-bar app dark color="indigo">
+      <v-toolbar-title>Page title</v-toolbar-title>
     </v-app-bar>
+
     <v-content>
       <v-container>
         <router-view></router-view>

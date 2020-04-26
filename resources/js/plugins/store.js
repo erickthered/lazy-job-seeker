@@ -12,9 +12,11 @@ export default {
 
     },
     actions: {
+        fetchJobs({ context }, skills) {
+            return fetchJobsApi(skills)
+        },
         fetchUser({ context }, username) {
-            console.log('gets here');
-            return fetchUserApi(username);
+            return fetchUserApi(username)
         }
     },
     modules: {

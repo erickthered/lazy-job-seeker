@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <v-chip class="ma-2" :color="skill.selected?'indigo':''" @click="toggleSelected">{{ skill.name }}</v-chip>
-  </div>
+    <v-chip
+      class="ma-2"
+      :color="(selected === true)?'indigo':''"
+      :text-color="(selected === true)?'white':''"
+      @click="toggleSelected"
+    >{{ skill.name }}</v-chip>
 </template>
 
 <script>
@@ -13,9 +16,15 @@ export default {
       required: true
     }
   },
+  data() {
+    return {
+      selected: false
+    };
+  },
   methods: {
     toggleSelected() {
-      this.skill.selected = !this.skill.selected;
+      this.selected = !this.selected ? true : false;
+      this.$emit('click', this.skill);
     }
   }
 };
