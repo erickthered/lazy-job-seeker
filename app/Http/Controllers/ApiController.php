@@ -5,10 +5,18 @@ namespace App\Http\Controllers;
 use App\Adapter\Search\Jobs;
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 
 class ApiController extends Controller
 {
     private $client = null;
+
+    private function calculateMatch($required, $current)
+    {
+        $requiredNames = array_map(function($i) {  return $i->name; }, $required);
+        $currentNames = array_map(function($i) { return $i->name; }, $current);
+        return round(count(array_intersect($requiredNames, $currentNames))/count($required) * 100, 2);
+    }
 
     public function jobs(Request $request)
     {
@@ -22,8 +30,14 @@ class ApiController extends Controller
                 'content-type' => 'application/json',
                 'json' =>  $json
             ]);
-            $success = true;
             $data = json_decode($data->getBody()->getContents());
+            foreach ($data->results as &$result) {
+                $result->match = $this->calculateMatch(
+                    $result->skills,
+                    Cache::get('currentSkills')
+                );
+            }
+            $success = true;
         } catch (\Exception $e) {
             $data = $e->getMessage();
         }
@@ -80,8 +94,9 @@ class ApiController extends Controller
         $success = false;
         try {
             $data = $client->get($url);
-            $success = true;
             $data = json_decode($data->getBody()->getContents());
+            Cache::put('currentSkills', $data->strengths);
+            $success = true;
         } catch (\Exception $e) {
             $data = null;
         }

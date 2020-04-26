@@ -1,0 +1,1312 @@
+{
+    "aggregators": {},
+    "offset": 0,
+    "results": [
+        {
+            "id": "6WZYb4r1",
+            "objective": "Web & Magento e-Commerce developer",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 207710,
+                    "name": "Scient | Robotics & AI",
+                    "picture": null
+                }
+            ],
+            "locations": [
+                "Bogota, Colombia"
+            ],
+            "remote": true,
+            "external": false,
+            "deadline": "2020-05-25T04:30:00.000Z",
+            "status": "open",
+            "compensation": {
+                "data": {
+                    "currency": "COP$",
+                    "minAmount": 3000000,
+                    "maxAmount": 4000000,
+                    "periodicity": "monthly"
+                },
+                "visible": true
+            },
+            "skills": [
+                {
+                    "code": 29596,
+                    "name": "PHP and HTML5",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 22600,
+                    "name": "Magento",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 55514,
+                    "name": "Front End",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55206,
+                    "name": "Back end",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 32056,
+                    "name": "Python",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55799,
+                    "name": "MySQL",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 29346,
+                    "name": "Django",
+                    "experience": "potential-to-develop"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "99453",
+                    "name": "Juan Esteban Camacho",
+                    "username": "juanestebancamacho",
+                    "professionalHeadline": "CEO of Scient | Humanist Leadership",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/2982a647e214da9291e928dced0961ef82363d7f/profile_ttqaldb.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": "229234",
+                    "name": "Francisco Camacho",
+                    "username": "pachocamacho",
+                    "professionalHeadline": "Data Scientist",
+                    "picture": null,
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 0
+                },
+                {
+                    "subjectId": "231354",
+                    "name": "Silvia Fernanda",
+                    "username": "sfca1997",
+                    "professionalHeadline": "Robotics Process Analyst",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/6cc512dcc2dde2d5e218c7a235e53a715af62b98/profile_6U92dLe.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "PW9qmpWg",
+            "objective": "Desarrollador PHP",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 204713,
+                    "name": "Omnia Technology S.A.S",
+                    "picture": null
+                }
+            ],
+            "locations": [
+                "Bogotá, Colombia"
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-24T04:30:00.000Z",
+            "status": "open",
+            "compensation": {
+                "data": {
+                    "currency": "USD$",
+                    "minAmount": 3000000,
+                    "maxAmount": 3500000,
+                    "periodicity": "monthly"
+                },
+                "visible": true
+            },
+            "skills": [
+                {
+                    "code": 32052,
+                    "name": "PHP",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 55799,
+                    "name": "MySQL",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 23826,
+                    "name": "Vue.js",
+                    "experience": "1-plus-year"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "57852",
+                    "name": "Laura Gonzalez",
+                    "username": "lgonzalez",
+                    "professionalHeadline": "Gestora Desarrollo Humano",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/b27ac89e61dd05635f2bd7e93ff9b88d738dbce8/profile_han7hUe.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "Prl4oJrk",
+            "objective": "Developer Senior Full Stack Aws Node Js",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 211131,
+                    "name": "Intergrupo",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/Intergrupo.png"
+                }
+            ],
+            "locations": [
+                "Medellín, Antioquia, Colombia"
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-26T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 5993,
+                    "name": "AWS",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 23813,
+                    "name": "Node.js",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 55799,
+                    "name": "MySQL",
+                    "experience": "3-plus-years"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9594
+                },
+                {
+                    "subjectId": "218266",
+                    "name": "Laura Natalia Motta Cadena",
+                    "username": "LauraMotta",
+                    "professionalHeadline": "Independet Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/61518b5587392840302149719d440834999de9aa/profile_3bVf0Kb.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Darío Solórzano",
+                    "username": "fadf430e-8d0e-4d71-831c-67bcef0fd2f0",
+                    "professionalHeadline": "CEO",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Dar%C3%ADoSol%C3%B3rzano.png",
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "awyAoYwN",
+            "objective": "PHP Developer ",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 209362,
+                    "name": "Inpsyde GmbH",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/ Inpsyde.jpeg"
+                }
+            ],
+            "locations": [],
+            "remote": true,
+            "external": false,
+            "deadline": "2020-05-26T04:30:00.000Z",
+            "status": "open",
+            "compensation": {
+                "data": {
+                    "currency": "EUR€",
+                    "minAmount": 1200,
+                    "maxAmount": null,
+                    "periodicity": "monthly"
+                },
+                "visible": true
+            },
+            "skills": [
+                {
+                    "code": 25720,
+                    "name": "Web Development",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 32052,
+                    "name": "PHP",
+                    "experience": "1-plus-year"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9587
+                },
+                {
+                    "subjectId": "220920",
+                    "name": "Sara Urrea",
+                    "username": "saraurrea",
+                    "professionalHeadline": "Independient Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/71a79fb89138007815ea4a7de6bae667aa5dbc2c/profile_u2hT6s9.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Alexander Frison",
+                    "username": "a1d8ce67-e327-436a-9928-c3434e8cb6e6",
+                    "professionalHeadline": null,
+                    "picture": null,
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "6WaP5pr0",
+            "objective": "Awesome Full stack",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 208968,
+                    "name": "Scient | Robotics & AI",
+                    "picture": null
+                }
+            ],
+            "locations": [],
+            "remote": true,
+            "external": false,
+            "deadline": "2020-05-25T04:30:00.000Z",
+            "status": "open",
+            "compensation": {
+                "data": {
+                    "currency": "COP$",
+                    "minAmount": 2500000,
+                    "maxAmount": 3500000,
+                    "periodicity": "monthly"
+                },
+                "visible": true
+            },
+            "skills": [
+                {
+                    "code": 29346,
+                    "name": "Django",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 32056,
+                    "name": "Python",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 50182,
+                    "name": "React",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55799,
+                    "name": "MySQL",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55533,
+                    "name": "Full-stack",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55514,
+                    "name": "Front End",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55206,
+                    "name": "Back end",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "potential-to-develop"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "99453",
+                    "name": "Juan Esteban Camacho",
+                    "username": "juanestebancamacho",
+                    "professionalHeadline": "CEO of Scient | Humanist Leadership",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/2982a647e214da9291e928dced0961ef82363d7f/profile_ttqaldb.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 0
+                },
+                {
+                    "subjectId": "225357",
+                    "name": "Clara Perez",
+                    "username": "claraperez",
+                    "professionalHeadline": "Business Data Analyst",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/95f5a0ab36d6b188c84000dcb9e94db6ff981298/profile_OOyU9NJ.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": "231354",
+                    "name": "Silvia Fernanda",
+                    "username": "sfca1997",
+                    "professionalHeadline": "Robotics Process Analyst",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/6cc512dcc2dde2d5e218c7a235e53a715af62b98/profile_6U92dLe.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "KWNv97WO",
+            "objective": "Brilliant Full Stack Developer",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 208968,
+                    "name": "Scient | Robotics & AI",
+                    "picture": null
+                }
+            ],
+            "locations": [
+                "Bogota, Colombia"
+            ],
+            "remote": true,
+            "external": false,
+            "deadline": "2020-05-25T04:30:00.000Z",
+            "status": "open",
+            "compensation": {
+                "data": {
+                    "currency": "COP$",
+                    "minAmount": 3000000,
+                    "maxAmount": 4000000,
+                    "periodicity": "monthly"
+                },
+                "visible": true
+            },
+            "skills": [
+                {
+                    "code": 29346,
+                    "name": "Django",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 32056,
+                    "name": "Python",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 50182,
+                    "name": "React",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55799,
+                    "name": "MySQL",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55533,
+                    "name": "Full-stack",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55514,
+                    "name": "Front End",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55206,
+                    "name": "Back end",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "potential-to-develop"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "99453",
+                    "name": "Juan Esteban Camacho",
+                    "username": "juanestebancamacho",
+                    "professionalHeadline": "CEO of Scient | Humanist Leadership",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/2982a647e214da9291e928dced0961ef82363d7f/profile_ttqaldb.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": "229234",
+                    "name": "Francisco Camacho",
+                    "username": "pachocamacho",
+                    "professionalHeadline": "Data Scientist",
+                    "picture": null,
+                    "member": true,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 0
+                },
+                {
+                    "subjectId": "231354",
+                    "name": "Silvia Fernanda",
+                    "username": "sfca1997",
+                    "professionalHeadline": "Robotics Process Analyst",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/6cc512dcc2dde2d5e218c7a235e53a715af62b98/profile_6U92dLe.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "8wD7qlWl",
+            "objective": "Software Developer 3 (JoinOCI-Docs)",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 210626,
+                    "name": "Oracle",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/oracle.png"
+                }
+            ],
+            "locations": [
+                "San Francisco, California, EE. UU."
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-26T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 55906,
+                    "name": "Java",
+                    "experience": "5-plus-years"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "5-plus-years"
+                },
+                {
+                    "code": 50182,
+                    "name": "React",
+                    "experience": "5-plus-years"
+                },
+                {
+                    "code": 32056,
+                    "name": "Python",
+                    "experience": "5-plus-years"
+                },
+                {
+                    "code": 19290,
+                    "name": "Infrastructure as a Service",
+                    "experience": "5-plus-years"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9594
+                },
+                {
+                    "subjectId": "170152",
+                    "name": "Paola Giraldo Montoya",
+                    "username": "Paola.Giraldo",
+                    "professionalHeadline": "Independent Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/cf0f3a6013102957a946290b2ad4343a8f5616b4/profile_SEl1lME.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Lawrence Ellison",
+                    "username": "82202a4b-3939-4cb8-a9e9-c67c8b147df8",
+                    "professionalHeadline": null,
+                    "picture": null,
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "lWgZzOr6",
+            "objective": "Desarollador Odoo - Python",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 210991,
+                    "name": "Indetec",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/Indetec.jpg"
+                }
+            ],
+            "locations": [
+                "Guadalajara, Jal., México"
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-26T04:30:00.000Z",
+            "status": "open",
+            "compensation": {
+                "data": {
+                    "currency": "MXN$",
+                    "minAmount": 16000,
+                    "maxAmount": 19000,
+                    "periodicity": "monthly"
+                },
+                "visible": true
+            },
+            "skills": [
+                {
+                    "code": 58676,
+                    "name": "Desarrollo de software",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 32056,
+                    "name": "Python",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 47758,
+                    "name": "Odoo",
+                    "experience": "3-plus-years"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9594
+                },
+                {
+                    "subjectId": "160220",
+                    "name": "Natalia Arteaga Corrales",
+                    "username": "nataliaarteaga",
+                    "professionalHeadline": "Independent Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/3f75c1a270bf5664d5043eeebad44a90d12d296f/profile_olgRH9u.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Luis Garcia",
+                    "username": "b952c2e2-7a11-4a84-858e-fc240d7d2c65",
+                    "professionalHeadline": null,
+                    "picture": null,
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "KWNv4AWO",
+            "objective": "Node.js Developer",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 209412,
+                    "name": "Pirsonal",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/Pirsonal.png"
+                }
+            ],
+            "locations": [
+                "Asia",
+                "Europa"
+            ],
+            "remote": true,
+            "external": false,
+            "deadline": "2020-05-26T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 23813,
+                    "name": "Node.js",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 36195,
+                    "name": "Development",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "1-plus-year"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9587
+                },
+                {
+                    "subjectId": "220920",
+                    "name": "Sara Urrea",
+                    "username": "saraurrea",
+                    "professionalHeadline": "Independient Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/71a79fb89138007815ea4a7de6bae667aa5dbc2c/profile_u2hT6s9.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Josías De La Espada Sempris",
+                    "username": "530fefe6-31b1-475e-9713-cfe09c18744a",
+                    "professionalHeadline": null,
+                    "picture": null,
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "PW9qO3Wg",
+            "objective": "Tech Lead  ",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 209522,
+                    "name": "Mobiquity",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/mobiquity.jpg"
+                }
+            ],
+            "locations": [
+                "United States"
+            ],
+            "remote": true,
+            "external": false,
+            "deadline": "2020-05-26T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 25720,
+                    "name": "Web Development",
+                    "experience": "5-plus-years"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "5-plus-years"
+                },
+                {
+                    "code": 23813,
+                    "name": "Node.js",
+                    "experience": "5-plus-years"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9587
+                },
+                {
+                    "subjectId": "220920",
+                    "name": "Sara Urrea",
+                    "username": "saraurrea",
+                    "professionalHeadline": "Independient Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/71a79fb89138007815ea4a7de6bae667aa5dbc2c/profile_u2hT6s9.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "John Castleman",
+                    "username": "fdcabb6b-818c-41dc-a0ef-fda761a9d4bd",
+                    "professionalHeadline": null,
+                    "picture": null,
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "qdPvenWb",
+            "objective": "Applications Developer ",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 210626,
+                    "name": "Oracle",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/oracle.png"
+                }
+            ],
+            "locations": [
+                "San Francisco, California, EE. UU."
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-26T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 55906,
+                    "name": "Java",
+                    "experience": "10-plus-years"
+                },
+                {
+                    "code": 59162,
+                    "name": "SQL",
+                    "experience": "10-plus-years"
+                },
+                {
+                    "code": 1961270,
+                    "name": "Debugging skills",
+                    "experience": "10-plus-years"
+                },
+                {
+                    "code": 55814,
+                    "name": "Team Player",
+                    "experience": "10-plus-years"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9594
+                },
+                {
+                    "subjectId": "170152",
+                    "name": "Paola Giraldo Montoya",
+                    "username": "Paola.Giraldo",
+                    "professionalHeadline": "Independent Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/cf0f3a6013102957a946290b2ad4343a8f5616b4/profile_SEl1lME.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Lawrence Ellison",
+                    "username": "82202a4b-3939-4cb8-a9e9-c67c8b147df8",
+                    "professionalHeadline": null,
+                    "picture": null,
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "Nwq6PPd3",
+            "objective": "Programador Backend NODE",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 206180,
+                    "name": "PLM MARKETING GROUP SAS",
+                    "picture": null
+                }
+            ],
+            "locations": [
+                "Medellín, Antioquia, Colombia"
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-23T04:30:00.000Z",
+            "status": "open",
+            "compensation": {
+                "data": null,
+                "visible": false
+            },
+            "skills": [
+                {
+                    "code": 23813,
+                    "name": "Node.js",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 1715822,
+                    "name": "API REST de Force.com",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 35772,
+                    "name": "Unit Testing",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 49214,
+                    "name": "PostgreSQL",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 55799,
+                    "name": "MySQL",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 21290,
+                    "name": "MongoDB",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 1707672,
+                    "name": "Linux +",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 42102,
+                    "name": "ES6",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55728,
+                    "name": "Webpack",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 28875,
+                    "name": "nginx",
+                    "experience": "potential-to-develop"
+                },
+                {
+                    "code": 55630,
+                    "name": "TDD",
+                    "experience": "potential-to-develop"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "143734",
+                    "name": "Alejandra García",
+                    "username": "alejandragarcia77",
+                    "professionalHeadline": "ANALISTA ADMINISTRATIVA",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/0e66351a23c40728ad9bb4fac6d3a5e6846aa89f/profile_O3BGIHh.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "EW7Pv4wy",
+            "objective": "Full Stack Engineer",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 209646,
+                    "name": "CyberCoders",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/CyberCoders.jpg"
+                }
+            ],
+            "locations": [
+                "San Francisco, California, EE. UU."
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-25T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 704,
+                    "name": "Software Development",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 55531,
+                    "name": "Full Stack Developer",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 55533,
+                    "name": "Full-stack",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 32056,
+                    "name": "Python",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 59162,
+                    "name": "SQL",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 29346,
+                    "name": "Django",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 9486,
+                    "name": "GIT",
+                    "experience": "3-plus-years"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9587
+                },
+                {
+                    "subjectId": "170152",
+                    "name": "Paola Giraldo Montoya",
+                    "username": "Paola.Giraldo",
+                    "professionalHeadline": "Independent Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/cf0f3a6013102957a946290b2ad4343a8f5616b4/profile_SEl1lME.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Heidi Golledge",
+                    "username": "ee6160a3-4b72-49cb-bde2-94c868d1ba5c",
+                    "professionalHeadline": "CEO",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/HeidiGolledge.jpg",
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "NwqqaMw3",
+            "objective": "Full Stack Engineer",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 208117,
+                    "name": "Oddball",
+                    "picture": "https://s3-us-west-2.amazonaws.com/torre-media/organizations/Oddball.png"
+                }
+            ],
+            "locations": [
+                "United States"
+            ],
+            "remote": true,
+            "external": false,
+            "deadline": "2020-05-25T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 521,
+                    "name": "Engineering",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "3-plus-years"
+                },
+                {
+                    "code": 9790,
+                    "name": "Oracle",
+                    "experience": "1-plus-year"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9675
+                },
+                {
+                    "subjectId": "220920",
+                    "name": "Sara Urrea",
+                    "username": "saraurrea",
+                    "professionalHeadline": "Independient Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/71a79fb89138007815ea4a7de6bae667aa5dbc2c/profile_u2hT6s9.jpg",
+                    "member": true,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Travis Sorensen",
+                    "username": "47aec371-5497-43e9-a2b5-1ee862ae3cc7",
+                    "professionalHeadline": null,
+                    "picture": null,
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        },
+        {
+            "id": "NwB7bAdb",
+            "objective": "Solutions Engineer",
+            "type": "full-time-employment",
+            "organizations": [
+                {
+                    "id": 209646,
+                    "name": "CyberCoders",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/organizations/CyberCoders.jpg"
+                }
+            ],
+            "locations": [
+                "San Francisco, California, EE. UU."
+            ],
+            "remote": false,
+            "external": false,
+            "deadline": "2020-05-25T04:30:00.000Z",
+            "status": "open",
+            "compensation": null,
+            "skills": [
+                {
+                    "code": 18319,
+                    "name": "Javascript",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 36466,
+                    "name": "RESTful",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 32056,
+                    "name": "Python",
+                    "experience": "1-plus-year"
+                },
+                {
+                    "code": 55906,
+                    "name": "Java",
+                    "experience": "1-plus-year"
+                }
+            ],
+            "members": [
+                {
+                    "subjectId": "85759",
+                    "name": "Katherine Cortés",
+                    "username": "katherinecortes",
+                    "professionalHeadline": "Customer Success Specialist at Torre",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/ecfab0b4252552e135fa4d99d6aadaa6dc1b2d8c/profile_CslTOsc.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": false,
+                    "weight": 2726.9587
+                },
+                {
+                    "subjectId": "170152",
+                    "name": "Paola Giraldo Montoya",
+                    "username": "Paola.Giraldo",
+                    "professionalHeadline": "Independent Recruiter",
+                    "picture": "https://starrgate.s3.amazonaws.com:443/users/cf0f3a6013102957a946290b2ad4343a8f5616b4/profile_SEl1lME.jpg",
+                    "member": false,
+                    "manager": true,
+                    "poster": true,
+                    "weight": 0
+                },
+                {
+                    "subjectId": null,
+                    "name": "Heidi Golledge",
+                    "username": "ee6160a3-4b72-49cb-bde2-94c868d1ba5c",
+                    "professionalHeadline": "CEO",
+                    "picture": "https://torre-media.s3-us-west-2.amazonaws.com/HeidiGolledge.jpg",
+                    "member": true,
+                    "manager": false,
+                    "poster": false,
+                    "weight": 0
+                }
+            ],
+            "questions": [],
+            "context": {
+                "signaled": []
+            }
+        }
+    ],
+    "size": 15,
+    "total": 251
+}
