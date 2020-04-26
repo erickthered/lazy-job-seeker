@@ -1,6 +1,9 @@
 <template>
   <v-row>
-    <v-col cols="12">
+    <v-col cols="12" style="max-height: 160px; overflow: auto">
+        <div>
+            Select your strongest skill(s):
+        </div>
       <Skill
         v-for="skill in skills"
         :key="`skill-${skill.code}`"

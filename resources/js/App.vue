@@ -1,7 +1,7 @@
 <template>
   <v-app id="lazy-job-seeker">
     <v-app-bar app dark color="indigo">
-      <v-toolbar-title>Page title</v-toolbar-title>
+      <v-toolbar-title>Lazy Job Seeker</v-toolbar-title>
     </v-app-bar>
 
     <v-content>

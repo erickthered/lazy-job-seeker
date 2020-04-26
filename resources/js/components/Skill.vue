@@ -4,6 +4,7 @@
       :color="(selected === true)?'indigo':''"
       :text-color="(selected === true)?'white':''"
       @click="toggleSelected"
+      small
     >{{ skill.name }}</v-chip>
 </template>
 
