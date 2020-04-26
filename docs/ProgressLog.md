@@ -23,3 +23,5 @@ Pending Tasks
 * Display missing skills from each opportunity that doesn't have 100%
 * Display a set of books available from Amazon to fill in those blanks or courses available in Coursera
 * Organize components in VUE project
+* Button to clear the current user
+* Display friendly error messages

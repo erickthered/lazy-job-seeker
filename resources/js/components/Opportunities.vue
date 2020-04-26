@@ -3,8 +3,8 @@
     <v-col cols="6">
       <v-switch v-model="onlyRemote" label="Display only remote jobs"></v-switch>
     </v-col>
-    <v-col cols="6">
-      <v-btn color="indigo" dark @click="search">Search Opportunities</v-btn>
+    <v-col cols="6" style="text-align: right">
+      <v-btn color="indigo" dark @click="search">Search jobs</v-btn>
     </v-col>
     <v-col cols="12">
       <v-tabs v-if="querySent">
